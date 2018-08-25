@@ -1,0 +1,125 @@
+body{
+	font-family: montserrat, sans-serif;
+}
+.clearfix{
+	content: "";
+	display: table;
+	clear: both;
+}
+.upper{
+	text-transform: uppercase;
+}
+.cap{
+	text-transform: capitalize;
+}
+a:link{
+	color: #111;
+	text-decoration: none;
+}
+a:visited{
+	color: #111;
+}
+a:hover{
+	color: #333;
+	/*opacity: 0.3;*/
+}
+a:active{
+	color: #555;
+	/*opacity: 0.6;*/
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background-color: #ffa800;
+}
+header ul{
+	float: right;
+}
+header ul.nav{
+	width: 60%;
+}
+/*header ul.social{
+	width: 20%;
+}*/
+header li{
+	display: inline-block;
+	text-transform: uppercase;
+	color: #111;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+	font-size: 0.8em;
+}
+header .logo{
+	width: 30%;
+}
+.banner{
+	background-image: url(images/homepage-cover.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.banner-child{
+	width: 80%;
+	margin: 0 auto;
+}
+.invite{
+	width: 40%;
+	height: 40%;
+	float: right;
+	background: white;
+	margin: 5% 0;
+	text-align: center;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.invite h2{
+	/*margin-top: 1em;*/
+	font-size: 1.25em;
+}
+.invite h1{
+	font-size: 2.5em;
+	line-height: 1.1em;
+	font-weight: bold;
+	margin-top: 0.375em;
+	margin-bottom: 0.375em;
+}
+.invite p{
+	font-family: lucida sans;
+	line-height: 1.1em;
+	font-size: 1em;
+	font-weight: lighter;
+}
+.invite .button{
+	margin-top: 2em;
+}
+.invite .button a{
+	padding: 0.5em 1.5em;
+	background-color: #ffa800;
+	border-radius: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
