@@ -301,6 +301,56 @@ ul.floating{
 }
 
 
+footer .follow{
+	width: 100%;
+}
+.follow p{
+	float: right;
+	background-color: #333;
+	display: inline-block;
+	padding: 0.5em 1em;
+	margin-top: 25px;
+	border-radius: 50px;
+}
+.follow p a{
+	color: #dd8f00;
+}
+.f-container{
+	width: 100%;
+	/*margin: 0 auto;*/
+	background-color: #dd8f00;
+}
+.s-container{
+	width: 90%;
+	margin: 0 auto;
+}
+footer h2{
+	float: left;
+	padding: 30px;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.t-container{
+	width: 90%;
+	margin: 20px auto;
+}
+.t-container .copy{
+	float: left;
+	font-size: 0.75em;
+	font-weight: lighter;
+}
+footer ul{
+	float: right;
+}
+footer ul li{
+	display: inline-block;
+	font-size: 0.875em;
+	
+}
+footer li a{
+	padding: 1em;
+}
 
 
 
